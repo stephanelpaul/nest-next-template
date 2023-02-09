@@ -4206,10 +4206,10 @@ graphql-zeus-jsonschema@*:
     graphql-js-tree "^0.1.9"
     json-schema "^0.3.0"
 
-graphql-zeus@^5.2.6:
-  version "5.2.6"
-  resolved "https://registry.yarnpkg.com/graphql-zeus/-/graphql-zeus-5.2.6.tgz#6d51b4dc2330c673f067b61cf8abb7911df8e92b"
-  integrity sha512-6G/4X3C/l4dyND7TlDDR0v0HTDvn30LLkaVfFOEXlLsP343rh504Onlx9BIoslrCwux2eb1BsByvG/IpmoBd7g==
+graphql-zeus@^5.2.8:
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/graphql-zeus/-/graphql-zeus-5.2.8.tgz#1533f848f95260ef06f9e904b8e68041d09d612b"
+  integrity sha512-nXarD0rWIL3WjM4cYXwOWLCCyYcrVTYS8yCJxrFWiSTnAdKdFjkyUS+RW2wrtjdexrq7/Op/OUwqTmv1r/w6Jw==
   dependencies:
     cross-fetch "^3.0.4"
     graphql-zeus-core "*"
