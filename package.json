@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.14",
-    "@apollo/gateway": "^2.4.3",
+    "@apollo/gateway": "^2.4.5",
     "@babel/runtime": "^7.21.5",
     "@nestjs/apollo": "^10.2.0",
     "@nestjs/common": "^9.4.1",
