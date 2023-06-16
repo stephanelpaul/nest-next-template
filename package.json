@@ -31,7 +31,7 @@
     "@babel/runtime": "^7.22.5",
     "@nestjs/apollo": "^10.2.0",
     "@nestjs/common": "^9.4.3",
-    "@nestjs/config": "^2.3.4",
+    "@nestjs/config": "^3.0.0",
     "@nestjs/core": "^9.4.3",
     "@nestjs/graphql": "^10.2.0",
     "@nestjs/jwt": "^10.0.3",
