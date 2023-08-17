@@ -4316,12 +4316,12 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-graphql-js-tree@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/graphql-js-tree/-/graphql-js-tree-0.1.9.tgz#305d136b01c3125a0392249ad70b621931c65d46"
-  integrity sha512-DiUp0I9ZAc7+kcOzX9dllM1uFjCPbu/8ZLxjCW5dl38ROGen/7Z70oDDaxtDZmwR6bC6COqQGjf9ZWPvz+vD3w==
+graphql-js-tree@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/graphql-js-tree/-/graphql-js-tree-1.0.5.tgz#467c811b56e206ef2b23022c459b4e25e1158b6d"
+  integrity sha512-7zbD/rdLWG3SvZrg9dDRbyuH32kzDSbwQLeMN5aQxTY/htLmSSeJ65oBJr5sKnUxXx+cdZCgM6vh7BOcW28tYA==
   dependencies:
-    graphql "^15.4.0"
+    graphql "15.4.0"
 
 graphql-tag@2.12.6, graphql-tag@^2.11.0, graphql-tag@^2.12.6:
   version "2.12.6"
@@ -4335,38 +4335,37 @@ graphql-ws@5.11.3:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.11.3.tgz#eaf8e6baf669d167975cff13ad86abca4ecfe82f"
   integrity sha512-fU8zwSgAX2noXAsuFiCZ8BtXeXZOzXyK5u1LloCdacsVth4skdBMPO74EG51lBoWSIZ8beUocdpV8+cQHBODnQ==
 
-graphql-zeus-core@*:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/graphql-zeus-core/-/graphql-zeus-core-5.2.1.tgz#af6dd755e38ef64dde5c9db6b0627c854b8b7cbe"
-  integrity sha512-wZmQ76RAzAqVziwu4uezJs0PeGgsdThLOBy+gvYcoIM1/PY6OBUj0bgXPaDT51LYEC+lA35PF2JBjvFV5xueeQ==
+graphql-zeus-core@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/graphql-zeus-core/-/graphql-zeus-core-5.3.1.tgz#047f001ffdfcbbf2ce551fd9bf28697b687818fd"
+  integrity sha512-J5j1qTbFCXKEtLrSf1YH9W85WQ9uhvsR8j1I6Qj1vKf3kHik02YYjms6pm8SsKHKXu2h1PSxPOqJqnlRVypEMA==
   dependencies:
     graphql "^16.5.0"
-    graphql-js-tree "^0.1.9"
-    json-schema "^0.3.0"
+    graphql-js-tree "^1.0.5"
 
-graphql-zeus-jsonschema@*:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/graphql-zeus-jsonschema/-/graphql-zeus-jsonschema-5.2.3.tgz#b056843fdb52abe8416cda306183764ee1d2311d"
-  integrity sha512-EP8k/ofO5VSCGIGJNh+SlE20nQNMu1QIJtqe/LpljZL2lRclz+8PZi5DNpJanB9HpAslvEpW8TYY50GMa2uMEA==
+graphql-zeus-jsonschema@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/graphql-zeus-jsonschema/-/graphql-zeus-jsonschema-5.3.1.tgz#bfd01f1c8d545c13a20510b22f6cce54dbdd5807"
+  integrity sha512-54tavKwn+gp3VZZqkN8ruMng4PyOsnMYZfvdFgN8J0XS08L+qnnoo+W3zfGN4X+cGGOhJEre86LrkJrBkX1qGw==
   dependencies:
     graphql "^16.5.0"
-    graphql-js-tree "^0.1.9"
+    graphql-js-tree "^1.0.5"
     json-schema "^0.3.0"
 
-graphql-zeus@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/graphql-zeus/-/graphql-zeus-5.3.0.tgz#b1a4a8c4240e12abf40489e00d215c668fcc3a5e"
-  integrity sha512-w7DzrdCnaXylWK6NJ4fc3Ps4+qzQ68pYoZrCgRwT/Pgf32Jh9e2vUSoUMkge4yXUW2u5th8yVkSakjOOCNsLEw==
+graphql-zeus@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/graphql-zeus/-/graphql-zeus-5.3.1.tgz#9600e9a0c99b05cde4c6e084717c9f5e8b7b6178"
+  integrity sha512-ElMYE8Os+XlhRChs0A+zP+eBDfblXJnFBNt2rFY5xm2CdflDkFWtWCWLlvXYEFdEBrYXcHYz2af2HmrziTFxHw==
   dependencies:
     cross-fetch "^3.0.4"
-    graphql-zeus-core "*"
-    graphql-zeus-jsonschema "*"
+    graphql-zeus-core "^5.3.1"
+    graphql-zeus-jsonschema "^5.3.1"
     yargs "^16.1.1"
 
-graphql@^15.4.0:
-  version "15.8.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.8.0.tgz#33410e96b012fa3bdb1091cc99a94769db212b38"
-  integrity sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==
+graphql@15.4.0:
+  version "15.4.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.4.0.tgz#e459dea1150da5a106486ba7276518b5295a4347"
+  integrity sha512-EB3zgGchcabbsU9cFe1j+yxdzKQKAbGUWRb13DsrsMN1yyfmmIq+2+L5MqVWcDCE4V89R5AyUOi7sMOGxdsYtA==
 
 graphql@^16.5.0, graphql@^16.8.0:
   version "16.8.0"
