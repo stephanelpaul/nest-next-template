@@ -75,7 +75,7 @@
     "@types/passport-jwt": "^3.0.10",
     "@types/passport-local": "^1.0.36",
     "@types/passport-oauth2": "^1.4.13",
-    "@types/react": "^18.2.25",
+    "@types/react": "^18.2.27",
     "@types/react-dom": "^18.2.11",
     "@types/supertest": "^2.0.14",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
