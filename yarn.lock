@@ -1782,10 +1782,10 @@
     "@types/passport" "*"
     "@types/passport-strategy" "*"
 
-"@types/passport-oauth2@*", "@types/passport-oauth2@^1.4.13":
-  version "1.4.13"
-  resolved "https://registry.yarnpkg.com/@types/passport-oauth2/-/passport-oauth2-1.4.13.tgz#15accda15c90eb5fb06e7b2a5e0c30cec9c1679c"
-  integrity sha512-SKjbAFSgV2ys7Vf8+BbQ2Fq09CZGi72xaHqbWPEKhi7czPSC0ff4gXuQEY3XXAuTynPjwj6dlL3YAta9M2K0AQ==
+"@types/passport-oauth2@*", "@types/passport-oauth2@^1.4.14":
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/@types/passport-oauth2/-/passport-oauth2-1.4.14.tgz#6982575b960eb7f001e28103ac3562349f1cded3"
+  integrity sha512-wZBvnRwqdvm35l1Jn9ebYm2Q7UtxYIdBu1PjoKXMoxJytniVjXxYJmrlDXn5fMZROWbJbnEnp1XSDANqtvMdGQ==
   dependencies:
     "@types/express" "*"
     "@types/oauth" "*"
