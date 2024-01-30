@@ -78,7 +78,7 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@types/supertest": "^6.0.2",
-    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.19.1",
     "cypress": "^13.6.3",
     "dotenv-flow": "^4.1.0",
