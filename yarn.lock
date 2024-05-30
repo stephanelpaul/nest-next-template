@@ -1825,10 +1825,10 @@
     "@types/passport" "*"
     "@types/passport-strategy" "*"
 
-"@types/passport-oauth2@*", "@types/passport-oauth2@^1.4.16":
-  version "1.4.16"
-  resolved "https://registry.yarnpkg.com/@types/passport-oauth2/-/passport-oauth2-1.4.16.tgz#59189a9d69783a63d7fb92d19cd28f96c95740af"
-  integrity sha512-Sdr0rpAdkiidUOtyaapGgvXyMjqYlMTFHRy7gtJtzr0/ysEIa72N3j2FSHIRc14h29g1+dzDl8IW2WT2Mu29vQ==
+"@types/passport-oauth2@*", "@types/passport-oauth2@^1.4.17":
+  version "1.4.17"
+  resolved "https://registry.yarnpkg.com/@types/passport-oauth2/-/passport-oauth2-1.4.17.tgz#d5d54339d44f6883d03e69dc0cc0e2114067abb4"
+  integrity sha512-ODiAHvso6JcWJ6ZkHHroVp05EHGhqQN533PtFNBkg8Fy5mERDqsr030AX81M0D69ZcaMvhF92SRckEk2B0HYYg==
   dependencies:
     "@types/express" "*"
     "@types/oauth" "*"
